@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rubix"
+    }
+  },
+  "defaultProject": "rubix",
+  "cli": {
+    "analytics": false
+  }
 }

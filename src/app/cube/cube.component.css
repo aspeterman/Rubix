@@ -1,0 +1,16 @@
+:host {
+  --cube-size: 600px;
+  --panel-size: calc(var(--cube-size) / 2);
+  --panel-size-opposite: calc((var(--cube-size) / 2) * -1);
+}
+
+.cube-container {
+  perspective: 1000px;
+  width: var(--cube-size);
+  height: var(--cube-size);
+}
+
+.cube {
+  height: 100%;
+  transform-style: preserve-3d;
+}
